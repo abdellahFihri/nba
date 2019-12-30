@@ -1,0 +1,14 @@
+.header{
+    background: rgb(31, 30, 30);
+    border-bottom: 1px solid black;
+    .headerOption{
+        display: flex;
+    }
+}
+.logo{
+    flex-grow: 1;
+    padding-top: 8px;
+    img{
+        width:35px;
+    }
+}

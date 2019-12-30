@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: lightgray;
+  font-family: "Roboto", sans-serif;
+}
+body a {
+  text-decoration: none;
+}
