@@ -34,7 +34,7 @@ const NavItems=()=>{
             icon:'sign-out',
             text:'Sign out',
             link:'/sign-out'
-        },
+        }
     ]
      const showItems=()=>{
      return items.map((item,i)=>{

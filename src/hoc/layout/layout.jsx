@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import  Header from '../header/header'
+import Footer from '../../components/footer/footer'
 import './layout.style.scss'
 
 class Layout extends Component {
@@ -19,6 +20,7 @@ this.setState({showNav:action})
                 onOpenNav={()=>this.toggleSideNav(true)}
                 />
                 {this.props.children}
+                <Footer/>
             </div>
          );
     }
